@@ -4,8 +4,8 @@ from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
 from api.chatgpt import ChatGPT
 import os
-line_bot_api = LineBotApi(os.getenv("LINE_CHANNEL_ACCESS_TOKEN"))
-line_handler = WebhookHandler(os.getenv("LINE_CHANNEL_SECRET"))
+line_bot_api = LineBotApi(os.getenv("4BGinZs0YNQ/X53azqIeHvqjNSi1gQBzvW4M2gmBuQias27RvDRGrxw+YPueruW2L4q1WzsAFI+g14AgjJfSPOfu/z7lso6DSZcy9hjBETdpAKt3DTWx7WMzmGtqVsXAGI2h+DwK7d1OnkCuG8lc1gdB04t89/1O/w1cDnyilFU="))
+line_handler = WebhookHandler(os.getenv("f430e30aa873d0bf93572bcc943a9877"))
 working_status = os.getenv("DEFALUT_TALKING", default = "true").lower() == "true"
 app = Flask(__name__)
 chatgpt = ChatGPT()
