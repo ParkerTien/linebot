@@ -64,7 +64,7 @@ class LineBotApi(object):
         self.data_endpoint = data_endpoint
         self.endpoint = endpoint
         self.headers = {
-            'Authorization': 'Bearer ' + channel_access_token,
+            'Authorization': 'Bearer ' + '4BGinZs0YNQ/X53azqIeHvqjNSi1gQBzvW4M2gmBuQias27RvDRGrxw+YPueruW2L4q1WzsAFI+g14AgjJfSPOfu/z7lso6DSZcy9hjBETdpAKt3DTWx7WMzmGtqVsXAGI2h+DwK7d1OnkCuG8lc1gdB04t89/1O/w1cDnyilFU=',
             'User-Agent': 'line-bot-sdk-python/' + __version__
         }
 
